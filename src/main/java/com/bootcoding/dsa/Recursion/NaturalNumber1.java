@@ -1,10 +1,8 @@
 package com.bootcoding.dsa.Recursion;
 
-import java.util.Scanner;
-
-public class Recursion1 {
+public class NaturalNumber1 {
     public static void main(String[] args) {
-        int n =10;
+        int n =50;
         print(n);
     }
 
