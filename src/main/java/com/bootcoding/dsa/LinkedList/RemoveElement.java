@@ -25,19 +25,19 @@ public class RemoveElement {
 
     public static ListNode removeElements(ListNode head, int val) {
         ListNode temp = head;
-        while (temp!= null){
-            if (temp.next.val==val){
-                if (temp.next.next==null ){
-                    temp.next=null;
+        ListNode prev = null;
+        while(temp != null){
+            if(temp.val == val){
+                if(prev == null){
+                    head = temp.next;
+                }else{
+                    prev.next = temp.next;
                 }
-                System.out.println(temp.val);
-
-                if(temp.next != null)
-                    temp.next = temp.next.next;
+            }else {
+                prev = temp;
             }
-            temp=temp.next;
+            temp = temp.next;
         }
-        temp= head;
-        return temp;
+        return head;
     }
 }
