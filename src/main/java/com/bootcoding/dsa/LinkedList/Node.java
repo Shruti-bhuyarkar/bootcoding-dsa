@@ -1,8 +1,8 @@
 package com.bootcoding.dsa.LinkedList;
 
 public class Node {
-        int data;
-        Node next;
+       public int data;
+     public    Node next;
     public    Node( int d){
          data = d;
          next = null;
