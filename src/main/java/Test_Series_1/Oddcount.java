@@ -8,13 +8,21 @@ public class Oddcount {
     }
 
     public static int oddDigits(int[] n) {
-        int count = 0;
+        int oddCounter = 0;
+        int div;
         for (int i = 0; i < n.length; i++) {
-            if (i % 3 == 0) {
-                count = count + 1;
+            int digitsCounter = 0;
+            int num = n[i];
+            while ( num != 0){
+                div = num / 10;
+                num = div;
+                digitsCounter++;
+            }
+            if (digitsCounter % 3 == 0) {
+               oddCounter++;
             }
         }
-        return count;
+        return oddCounter;
     }
 }
 
