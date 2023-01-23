@@ -14,12 +14,16 @@ public class MiddleElement {
         FN.next =  SN.next;
         SN.next = TN.next;
         TN.next = FON;
-       printMiddleElement(head);
+       Node a = printMiddleElement(head);
+       while (a != null){
+           System.out.println(a.data);
+           a = a.next;
+       }
     }
 
-        private static  void printMiddleElement(Node head){
+        private static  Node printMiddleElement(Node head){
         Node temp = head;
-        Node temp2 = head;
+       // Node temp2 = head;
         int counter = 0;
         int mid;
         while (temp != null) {
@@ -28,11 +32,11 @@ public class MiddleElement {
         }
 
         mid = (counter) / 2;
-        while (mid != 0) {
-            temp2 = temp2.next;
-            mid--;
-
+        temp = head;
+        for (int i = 0; i < mid; i++){
+            temp = temp.next;
         }
-
+        head = temp;
+        return head;
     }
 }
