@@ -9,14 +9,15 @@ public class SumOfSeries {
         int n = sc.nextInt();
         printSumOfSeries(n);
     }
-    public static void printSumOfSeries(int n){
+    public static int printSumOfSeries(int n){
         int sum = 0;
-        int temp = n;
+        //int temp = n;
         while (n >= 1){
             int div = n/10;
             sum =sum +  n%10;
             n= div;
         }
         System.out.println(sum);
+        return sum;
     }
 }
