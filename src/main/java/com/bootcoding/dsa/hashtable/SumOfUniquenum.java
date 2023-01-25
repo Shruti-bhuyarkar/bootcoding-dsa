@@ -27,6 +27,6 @@ public class SumOfUniquenum {
 
             }
         }
-        System.out.println(sum);
+
     }
 }
