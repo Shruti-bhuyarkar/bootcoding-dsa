@@ -11,12 +11,12 @@ public class ConcatenationOfArray {
     public static int[] getConcatenation(int[] nums) {
         int n = nums.length;
         int[] ans = new int[n*2] ;
-        int indx = 0;
+        int index = 0;
         for (int i = 0 ; i<ans.length; i++){
             for (int j = 0 ; j < nums.length; j++) {
-                ans[indx] = nums[j];
-                if (indx!= ans.length-1) {
-                    indx++;
+                ans[index] = nums[j];
+                if (index!= ans.length-1) {
+                    index++;
                 }
             }
         }
