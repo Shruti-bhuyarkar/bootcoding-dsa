@@ -15,9 +15,14 @@ public class SelectionSort {
                     Mi = j;
                 }
             }
-            int temp = n[Mi];
-            n[Mi] = n[i];
-            n[i] = temp;
+            //if min idx is not equal to i then swap
+            //otherwise do not swap
+            //below if condition tells that
+            if (Mi != i) {
+                int temp = n[Mi];
+                n[Mi] = n[i];
+                n[i] = temp;
+            }
         }
     }
 
