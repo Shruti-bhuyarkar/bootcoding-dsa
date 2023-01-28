@@ -18,13 +18,13 @@ public class BubbleSort {
             }
         }
     }
-        public static void print( int[] n){
-            int num = n.length;
-            for (int i = 0; i < num; ++i) {
-                System.out.println(n[i] + " ");
-            }
-            System.out.println();
+    public static void print( int[] n){
+        int num = n.length;
+        for (int i = 0; i < num; ++i) {
+            System.out.println(n[i] + " ");
         }
+        System.out.println();
+    }
 }
 
 

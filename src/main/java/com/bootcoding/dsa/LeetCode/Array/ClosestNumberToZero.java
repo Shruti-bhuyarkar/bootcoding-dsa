@@ -2,7 +2,7 @@ package com.bootcoding.dsa.LeetCode.Array;
 
 public class ClosestNumberToZero {
     public static void main(String[] args) {
-    int[] nums = {-4, -2, 1, 4, 8};
+    int[] nums = {-100000,-100000};
         System.out.println(findClosestNumber(nums));
     }
     public static int findClosestNumber(int[] nums) {

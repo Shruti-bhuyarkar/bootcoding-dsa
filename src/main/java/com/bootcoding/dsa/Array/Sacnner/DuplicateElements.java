@@ -7,7 +7,7 @@ public class DuplicateElements {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter array size ");
         int size = sc.nextInt();
-        int numbers[] = new int[size];
+        int[] numbers = new int[size];
         for (int i = 0; i < numbers.length; i++) {
             System.out.println("Enter array element " + (i + 1));
             int number = sc.nextInt();
