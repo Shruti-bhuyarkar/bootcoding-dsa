@@ -43,6 +43,6 @@ public class Postorder {
         }
         postorderTraversal(root.left);
         postorderTraversal(root.right);
-        System.out.println((root.data));
+        System.out.print(" , " +(root.data));
     }
 }
