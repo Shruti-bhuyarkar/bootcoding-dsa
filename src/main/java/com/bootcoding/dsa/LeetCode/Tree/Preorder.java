@@ -39,7 +39,7 @@ public class Preorder {
         if (root == null) {
             return;
         }
-        System.out.println((root.data));
+        System.out.print( " , " +(root.data));
         preorderTraversal(root.left);
         preorderTraversal(root.right);
 
