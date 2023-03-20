@@ -1,5 +1,7 @@
 package com.bootcoding.dsa.LeetCode.Tree;
 
+import static javax.swing.Spring.height;
+
 public class Inorder {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
@@ -34,6 +36,7 @@ public class Inorder {
         n7.right = n15;
 
     inorderTraversal(root);
+
     }
     //static List<Integer> n = new LinkedList<>();
     public static void inorderTraversal(TreeNode root) {
@@ -43,7 +46,6 @@ public class Inorder {
         inorderTraversal(root.left);
         System.out.print(" , "+ (root.data));
         inorderTraversal(root.right);
-
     }
 
 
