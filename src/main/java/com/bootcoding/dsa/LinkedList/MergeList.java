@@ -1,44 +1,56 @@
-package com.bootcoding.dsa.LinkedList;
 
 public class MergeList {
+
     public static void main(String[] args) {
-        ListNode firstNode = new ListNode(1);
-        ListNode secondNode = new ListNode(2);
-        ListNode fourthNode = new ListNode(4);
-
-
-        ListNode head = firstNode;
-        firstNode.next = secondNode;
-        secondNode.next =  fourthNode;
-        fourthNode.next = null;
-
+        // Create the first sorted list: 1 -> 3 -> 4 -> 7
         ListNode l1 = new ListNode(1);
-        ListNode l2 = new ListNode(3);
-        ListNode l3 = new ListNode(4);
+        l1.next = new ListNode(3);
+        l1.next.next = new ListNode(4);
+        l1.next.next.next = new ListNode(7);
 
-//        ListNode head = l1;
-//        l1.next = l2;
-//        l2.next =  l3;
-//        l3.next = null;
-//        mergeTwoLists(head);
+        // Create the second sorted list: 2 -> 5 -> 6
+        ListNode l2 = new ListNode(2);
+        l2.next = new ListNode(5);
+        l2.next.next = new ListNode(6);
 
+        // Merge the two sorted lists
+        ListNode result = mergeTwoLists(l1, l2);
+
+        // Print the resulting merged list: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
+        while (result != null) {
+            System.out.print(result.val + " -> ");
+            result = result.next;
+        }
+        System.out.print("null");
     }
-    public static  ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode head = new ListNode(0);
-        ListNode curr = head;
-        while(list1 != null && list2 != null){
-            //merge list
-            if(list1.val <= list2.val){
-                curr.next = list1;
-                list1 = list1.next;
-            }
-            else{
-                curr.next = list2;
-                list2 = list2.next;
+
+    public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode dummy = new ListNode(0);
+        ListNode curr = dummy;
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val) {
+                curr.next = l1;
+                l1 = l1.next;
+            } else {
+                curr.next = l2;
+                l2 = l2.next;
             }
             curr = curr.next;
         }
-        curr.next = list2 != null ? list1 : list2;
-        return head.next;
+        if (l1 != null) {
+            curr.next = l1;
+        }
+        if (l2 != null) {
+            curr.next = l2;
+        }
+        return dummy.next;
+    }
+}
+
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int val) {
+        this.val = val;
     }
 }
