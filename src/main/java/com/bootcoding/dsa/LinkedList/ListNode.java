@@ -2,11 +2,9 @@ package com.bootcoding.dsa.LinkedList;
 
 public class ListNode {
 
-      public int val;
-      public ListNode next;
-
-      public ListNode(int val ){
+    public int val;
+    public ListNode next;
+    public ListNode(int val) {
         this.val = val;
-
-      }
+    }
 }
