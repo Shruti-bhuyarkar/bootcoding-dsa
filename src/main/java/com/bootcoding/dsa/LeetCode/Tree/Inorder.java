@@ -1,24 +1,22 @@
 package com.bootcoding.dsa.LeetCode.Tree;
 
-import static javax.swing.Spring.height;
-
 public class Inorder {
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(1);
-        TreeNode n2 = new TreeNode(2);
-        TreeNode n3 = new TreeNode(3);
-        TreeNode n4 = new TreeNode(4);
-        TreeNode n5 = new TreeNode(5);
-        TreeNode n6 = new TreeNode(6);
-        TreeNode n7 = new TreeNode(7);
-        TreeNode n8 = new TreeNode(8);
-        TreeNode n9 = new TreeNode(9);
-        TreeNode n10 = new TreeNode(10);
-        TreeNode n11 = new TreeNode(11);
-        TreeNode n12 = new TreeNode(12);
-        TreeNode n13 = new TreeNode(13);
-        TreeNode n14 = new TreeNode(14);
-        TreeNode n15 = new TreeNode(15);
+        treeNode root = new treeNode(1);
+        treeNode n2 = new treeNode(2);
+        treeNode n3 = new treeNode(3);
+        treeNode n4 = new treeNode(4);
+        treeNode n5 = new treeNode(5);
+        treeNode n6 = new treeNode(6);
+        treeNode n7 = new treeNode(7);
+        treeNode n8 = new treeNode(8);
+        treeNode n9 = new treeNode(9);
+        treeNode n10 = new treeNode(10);
+        treeNode n11 = new treeNode(11);
+        treeNode n12 = new treeNode(12);
+        treeNode n13 = new treeNode(13);
+        treeNode n14 = new treeNode(14);
+        treeNode n15 = new treeNode(15);
 
          root.left = n2;
          root.right = n3;
@@ -39,7 +37,7 @@ public class Inorder {
 
     }
     //static List<Integer> n = new LinkedList<>();
-    public static void inorderTraversal(TreeNode root) {
+    public static void inorderTraversal(treeNode root) {
         if (root == null) {
             return ;
         }

@@ -2,13 +2,13 @@ package com.bootcoding.dsa.LeetCode.Tree;
 
 public class IBT {
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(4);
-        TreeNode n2 = new TreeNode(2);
-        TreeNode n3 = new TreeNode(7);
-        TreeNode n4 = new TreeNode(1);
-        TreeNode n5 = new TreeNode(3);
-        TreeNode n6 = new TreeNode(6);
-        TreeNode n7 = new TreeNode(9);
+        treeNode root = new treeNode(4);
+        treeNode n2 = new treeNode(2);
+        treeNode n3 = new treeNode(7);
+        treeNode n4 = new treeNode(1);
+        treeNode n5 = new treeNode(3);
+        treeNode n6 = new treeNode(6);
+        treeNode n7 = new treeNode(9);
 
 
         root.left = n2;
@@ -20,11 +20,11 @@ public class IBT {
 
         System.out.println(invertTree(root));
     }
-    public static TreeNode invertTree(TreeNode root) {
+    public static treeNode invertTree(treeNode root) {
         if (root == null) {
             return null;
         }
-        TreeNode temp = root.left;
+        treeNode temp = root.left;
         root.left = invertTree(root.right);
         root.right = invertTree(temp);
         return root;

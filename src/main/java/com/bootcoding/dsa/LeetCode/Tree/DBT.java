@@ -2,11 +2,11 @@ package com.bootcoding.dsa.LeetCode.Tree;
 
 public class DBT {
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(1);
-        TreeNode n2 = new TreeNode(2);
-        TreeNode n3 = new TreeNode(3);
-        TreeNode n4 = new TreeNode(4);
-        TreeNode n5 = new TreeNode(5);
+        treeNode root = new treeNode(1);
+        treeNode n2 = new treeNode(2);
+        treeNode n3 = new treeNode(3);
+        treeNode n4 = new treeNode(4);
+        treeNode n5 = new treeNode(5);
 
         root.left = n2;
         root.right = n3;
@@ -14,7 +14,7 @@ public class DBT {
         n2.left = n4;
         System.out.println(diameterOfBinaryTree(root));
     }
-        public static int diameterOfBinaryTree (TreeNode root){
+        public static int diameterOfBinaryTree (treeNode root){
             if (root == null) {
                 return 0;
             }
@@ -26,7 +26,7 @@ public class DBT {
             return Math.max(rootDiameter, Math.max(leftDiameter, rightDiameter));
         }
 
-        private static int height (TreeNode root){
+        private static int height (treeNode root){
             if (root == null) {
                 return 0;
             }

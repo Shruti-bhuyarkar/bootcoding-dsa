@@ -2,8 +2,8 @@ package com.bootcoding.dsa.LeetCode.Tree;
 
 public class TreeNode {
     int data ;
-    TreeNode left;
-    TreeNode right;
+    treeNode left;
+    treeNode right;
 
    public TreeNode(int data){
        this.left = left;
