@@ -1,4 +1,6 @@
-package com.bootcoding.dsa.LeetCode.Tree;
+package com.bootcoding.dsa.LeetCode.Tree.BinaryTree;
+
+import com.bootcoding.dsa.LeetCode.Tree.treeNode;
 
 public class IBT {
     public static void main(String[] args) {
@@ -30,3 +32,12 @@ public class IBT {
         return root;
     }
 }
+//    BinarySearchTree bst = new BinarySearchTree();
+//        bst.insert(50);
+//                bst.insert(30);
+//                bst.insert(70);
+//                bst.insert(20);
+//                bst.insert(40);
+//                bst.insert(60);
+//                bst.insert(80);
+//                }

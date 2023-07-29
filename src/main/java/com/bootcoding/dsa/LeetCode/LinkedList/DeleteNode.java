@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.LeetCode;
+package com.bootcoding.dsa.LeetCode.LinkedList;
 
 import com.bootcoding.dsa.LinkedList.ListNode;
 

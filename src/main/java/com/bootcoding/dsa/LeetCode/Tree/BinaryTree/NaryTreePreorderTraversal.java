@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.LeetCode.Tree;
+package com.bootcoding.dsa.LeetCode.Tree.BinaryTree;
 
 import java.util.ArrayList;
 import java.util.List;

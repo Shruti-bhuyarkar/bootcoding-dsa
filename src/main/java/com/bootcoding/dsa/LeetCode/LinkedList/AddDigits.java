@@ -1,4 +1,4 @@
-package com.bootcoding.dsa.LeetCode;
+package com.bootcoding.dsa.LeetCode.LinkedList;
 
 public class AddDigits {
     public static void main(String[] args) {

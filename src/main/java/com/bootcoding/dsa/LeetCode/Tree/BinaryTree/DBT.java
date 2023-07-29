@@ -1,4 +1,6 @@
-package com.bootcoding.dsa.LeetCode.Tree;
+package com.bootcoding.dsa.LeetCode.Tree.BinaryTree;
+
+import com.bootcoding.dsa.LeetCode.Tree.treeNode;
 
 public class DBT {
     public static void main(String[] args) {
