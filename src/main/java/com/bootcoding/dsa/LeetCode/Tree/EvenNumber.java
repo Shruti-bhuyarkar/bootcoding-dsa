@@ -36,12 +36,14 @@ public class EvenNumber {
         EvenNumber(root);
     }
     public static void EvenNumber(treeNode root){
-        if(root != null){
-            EvenNumber(root.left);
+        if(root == null){
+            return;
         }
         if(root.data % 2 == 0 ){
-            System.out.println("Even num -" + " ");
-            EvenNumber(root.right);
+            System.out.println(root.data);
+
         }
+        EvenNumber(root.left);
+        EvenNumber(root.right);
     }
 }
