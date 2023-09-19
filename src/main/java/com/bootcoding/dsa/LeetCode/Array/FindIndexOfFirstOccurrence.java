@@ -2,12 +2,12 @@ package com.bootcoding.dsa.LeetCode.Array;
 
 public class FindIndexOfFirstOccurrence {
         public static void main(String[] args) {
-            Solution solution = new Solution();
+            FindIndexOfFirstOccurrence findIndexOfFirstOccurrence = new FindIndexOfFirstOccurrence();
 
             String haystack = "sadbutsad";
             String needle = "sad";
 
-            int index = solution.strStr(haystack, needle);
+            int index = findIndexOfFirstOccurrence.strStr(haystack, needle);
 
             if (index != -1) {
                 System.out.println("Needle found at index: " + index);
@@ -15,11 +15,16 @@ public class FindIndexOfFirstOccurrence {
                 System.out.println("Needle not found in haystack.");
             }
         }
-    }
-    class Solution {
         public int strStr(String haystack, String needle) {
+            //    for (int i = 0; i <= haystack.length() - needle.length(); i++) {
+            //         if (haystack.substring(i, i + needle.length()).equals(needle)) {
+            //             return i;
+            //         }
+            //     }
+            //     return -1;
             return haystack.indexOf(needle);
         }
     }
+
 
 
