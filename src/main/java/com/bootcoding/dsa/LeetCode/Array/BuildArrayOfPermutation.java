@@ -14,6 +14,4 @@ public class BuildArrayOfPermutation {
         }
         return n;
     }
-
-
 }
