@@ -8,7 +8,7 @@ public class SquareSortedArray {
     int[] square = sortedSquares(nums);
     for (int i = 0; i < square.length; i++) {
         System.out.println(square[i]);
-    }
+         }
     }
     public static int[] sortedSquares(int[] nums){
         for(int i = 0; i < nums.length; i++){
