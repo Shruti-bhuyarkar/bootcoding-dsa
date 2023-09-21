@@ -11,7 +11,6 @@ public class TwoSum {
        for(int i = 0; i < ans.length; i++){
            System.out.println(ans[i]);
        }
-
     }
     public static int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
@@ -22,5 +21,4 @@ public class TwoSum {
         }
         return new int[] {};
     }
-
 }
