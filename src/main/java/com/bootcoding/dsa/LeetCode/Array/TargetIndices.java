@@ -11,7 +11,7 @@ public class TargetIndices {
     List<Integer> TI = targetIndices(nums, 2);
     for (int i = 0; i< TI.size(); i++){
         System.out.println(TI.get(i));
-    }
+        }
     }
     public static  List<Integer> targetIndices(int[] nums, int target) {
         Arrays.sort(nums);
