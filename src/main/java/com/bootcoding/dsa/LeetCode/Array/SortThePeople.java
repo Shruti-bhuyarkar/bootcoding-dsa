@@ -8,7 +8,6 @@ public class SortThePeople {
         String[] names = {"Mary","John","Emma"};
         int[] height = {180,165,170};
         System.out.println(sortPeople(names,height));
-
     }
     public static String[] sortPeople(String[] names, int[] heights) {
         HashMap<Integer,String> idx = new HashMap<>();
