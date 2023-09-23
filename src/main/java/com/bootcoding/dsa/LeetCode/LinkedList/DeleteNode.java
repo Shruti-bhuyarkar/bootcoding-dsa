@@ -20,7 +20,6 @@ public class DeleteNode {
       deleteNode(secondNode);
        print(head);
     }
-
     public static ListNode deleteNode(ListNode node) {
 
            node.val = node.next.val;
@@ -35,6 +34,5 @@ public class DeleteNode {
                 temp = temp.next;
             }
         }
-
     }
 
