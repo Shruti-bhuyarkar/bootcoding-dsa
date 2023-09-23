@@ -18,7 +18,6 @@ public class LinkedListCycle {
 
         System.out.println(hasCycle(head));
     }
-
     public static boolean hasCycle(ListNode head) {
         ListNode sp = head;
         ListNode fp = head;
