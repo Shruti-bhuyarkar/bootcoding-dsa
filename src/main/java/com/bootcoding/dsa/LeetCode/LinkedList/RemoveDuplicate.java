@@ -27,7 +27,6 @@ public class RemoveDuplicate {
             n.next=new ListNode(temp.val);
             n = n.next;
             temp=temp.next;
-
         }
         return out;
     }
