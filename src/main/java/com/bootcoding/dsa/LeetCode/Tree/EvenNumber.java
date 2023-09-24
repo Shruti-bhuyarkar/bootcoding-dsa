@@ -41,7 +41,6 @@ public class EvenNumber {
         }
         if(root.data % 2 == 0 ){
             System.out.println(root.data);
-
         }
         EvenNumber(root.left);
         EvenNumber(root.right);
