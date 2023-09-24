@@ -18,11 +18,8 @@ public class PascalsTriangle {
                     row.set(j, row.get(j) + row.get(j + 1));
                 }
             }
-
             return row;
         }
-
-
     }
 
 
