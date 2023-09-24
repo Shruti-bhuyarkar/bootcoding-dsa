@@ -45,8 +45,6 @@ public class Inorder {
         System.out.print(" , "+ (root.data));
         inorderTraversal(root.right);
     }
-
-
 }
 
 

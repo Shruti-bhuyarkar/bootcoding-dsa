@@ -14,7 +14,6 @@ public class GetFullTree {
         n2.left = n4;
         System.out.println(getfull(root));
     }
-
     public static boolean getfull(treeNode root) {
         if (root == null) {
             return true;
