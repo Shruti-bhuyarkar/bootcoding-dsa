@@ -11,6 +11,4 @@ public class treeNode {
        this.data = data;
        
    }
-
-
 }
