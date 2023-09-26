@@ -7,7 +7,6 @@ public class CubeOfArray {
         for(int i =0; i<cube.length;i++){
             System.out.println(cube[i]);
         }
-
         CubeOfArray cubeOfArray = new CubeOfArray();
     }public static int[] Cube(int[] array){
         int[] cube = new int[array.length];
