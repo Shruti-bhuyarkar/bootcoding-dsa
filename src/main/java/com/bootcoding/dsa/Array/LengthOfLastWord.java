@@ -2,8 +2,6 @@ package com.bootcoding.dsa.Array;
 
 public class LengthOfLastWord {
     public static void main(String[] args) {
-
-
         String str = "Hello World ";
         System.out.println(LengthOfLastWord(str));
     }
