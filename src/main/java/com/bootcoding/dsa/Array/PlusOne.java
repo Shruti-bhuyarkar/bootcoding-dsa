@@ -10,7 +10,6 @@ public class PlusOne {
             }
             digits[i]=0;
         }
-
         int[] one=new int[n+1];
         one[0]=1;
         return one;
