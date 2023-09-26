@@ -7,7 +7,8 @@ public class MovesZeroes {
         for (int i = 0; i < num.length; i++) {
             System.out.println(num[i]);
         }
-    }    public static int[] MovesZeroes(int[] nums) {
+    }
+    public static int[] MovesZeroes(int[] nums) {
         int n = nums.length;
         if (n < 2)
             return nums;
