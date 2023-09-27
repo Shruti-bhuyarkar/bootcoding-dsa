@@ -12,7 +12,6 @@ public class IBT {
         treeNode n6 = new treeNode(6);
         treeNode n7 = new treeNode(9);
 
-
         root.left = n2;
         root.right = n3;
         n2.right = n5;
@@ -32,12 +31,3 @@ public class IBT {
         return root;
     }
 }
-//    BinarySearchTree bst = new BinarySearchTree();
-//        bst.insert(50);
-//                bst.insert(30);
-//                bst.insert(70);
-//                bst.insert(20);
-//                bst.insert(40);
-//                bst.insert(60);
-//                bst.insert(80);
-//                }
