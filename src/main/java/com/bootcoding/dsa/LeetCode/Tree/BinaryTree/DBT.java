@@ -27,7 +27,6 @@ public class DBT {
             int rightDiameter = diameterOfBinaryTree(root.right);
             return Math.max(rootDiameter, Math.max(leftDiameter, rightDiameter));
         }
-
         private static int height (treeNode root){
             if (root == null) {
                 return 0;
