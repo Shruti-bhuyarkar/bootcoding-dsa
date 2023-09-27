@@ -10,9 +10,7 @@ public class MinDepthBT {
         root.right.left = new treeNode(15);
         root.right.right = new treeNode(7);
 
-
         System.out.println("Minimum depth of binary tree  " + minDepth(root));
-
     }
     public static int minDepth(treeNode root) {
         if (root == null) {
