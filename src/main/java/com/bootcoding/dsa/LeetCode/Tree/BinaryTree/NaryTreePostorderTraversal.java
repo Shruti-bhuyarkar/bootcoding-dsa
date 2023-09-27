@@ -24,11 +24,9 @@ public class NaryTreePostorderTraversal {
         if (root == null) {
             return result;
         }
-
         postorderTraversal(root, result);
         return result;
     }
-
     private static void postorderTraversal(Node node, List<Integer> result) {
         if (node == null) {
             return;
@@ -38,5 +36,4 @@ public class NaryTreePostorderTraversal {
         }
         result.add(node.val);
     }
-
 }
