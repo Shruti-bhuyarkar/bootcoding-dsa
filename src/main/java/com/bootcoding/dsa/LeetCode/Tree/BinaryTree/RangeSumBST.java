@@ -17,24 +17,7 @@ public class RangeSumBST {
         int result = rangeSumBST.rangeSumBST(root, low, high);
         System.out.println("Range Sum between " + low + " and " + high + " is: " + result); // Output: Range Sum between 7 and 15 is: 32
     }
-
     public int rangeSumBST(treeNode root, int low, int high) {
-//        if (root == null) {
-//            return 0;
-//        }
-//        int currentVal = root.data;
-//        int sum = 0;
-//        if (currentVal >= low && currentVal <= high) {
-//            sum += currentVal;
-//        }
-//        if (currentVal > low) {
-//            sum += rangeSumBST(root.left, low, high);
-//        }
-//        if (currentVal < high) {
-//            sum += rangeSumBST(root.right, low, high);
-//        }
-//
-//        return sum;
         if (root == null) {
             return 0;
         }
