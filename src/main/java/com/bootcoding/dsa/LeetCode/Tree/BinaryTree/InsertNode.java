@@ -27,7 +27,6 @@ public class InsertNode {
 
         inorder(root);
     }
-
     public static treeNode insertIntoBST(treeNode root, int data) {
         if (root == null) {
             return new treeNode(data);
