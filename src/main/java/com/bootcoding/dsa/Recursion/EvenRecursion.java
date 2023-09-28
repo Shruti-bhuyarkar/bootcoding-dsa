@@ -13,8 +13,5 @@ public class EvenRecursion {
         if(n % 2 == 0){
             System.out.println(n );
         }
-
-
-
     }
 }
