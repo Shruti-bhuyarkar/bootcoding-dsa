@@ -6,10 +6,9 @@ public class CountDigit {
         System.out.println("Count of digits : " + getcountDigit(num));
     }
     public static int getcountDigit(int num){
-        {
             if (num < 10)
                 return 1;
             return 1 + getcountDigit(num / 10);
-        }
+
     }
 }
