@@ -5,7 +5,6 @@ public class NaturalNumber1 {
         int n =50;
         print(n);
     }
-
     public static  void print(int n){
         if(n == 0){
             return;
