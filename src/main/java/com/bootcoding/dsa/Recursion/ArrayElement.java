@@ -8,10 +8,8 @@ public class ArrayElement {
     public static void printArrayElement(int[] n, int a){
         if(a == n.length){
             return;
-
         }
         System.out.println(n[a]);
         printArrayElement(n , ++a);
     }
-
 }
