@@ -9,7 +9,6 @@ public class PrintSMSDR {
         int A = sc.nextInt();
         System.out.println("Enter Second Digit ");
         int B = sc.nextInt();
-
         printSMSDR(A,B);
     }
     public static void printSMSDR(int A, int B){
