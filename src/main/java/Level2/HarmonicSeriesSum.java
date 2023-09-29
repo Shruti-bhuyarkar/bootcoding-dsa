@@ -7,7 +7,6 @@ public class HarmonicSeriesSum {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Number : ");
         int Number = sc.nextInt();
-
         printHarmonicSeriesSum(Number);
     }
     public static void printHarmonicSeriesSum(int Number){
