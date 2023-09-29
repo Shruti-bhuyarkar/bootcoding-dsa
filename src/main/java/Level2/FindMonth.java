@@ -7,7 +7,6 @@ public class FindMonth {
         Scanner sc = new Scanner(System.in);
         System.out.println(" Enter Any Number : ");
         int num = sc.nextInt();
-
         findMonth(num);
     }
      public static void findMonth(int num) {
