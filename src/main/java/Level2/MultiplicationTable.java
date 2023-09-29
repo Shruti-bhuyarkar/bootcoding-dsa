@@ -9,14 +9,12 @@ public class MultiplicationTable {
         int number = sc.nextInt();
         System.out.println("Multiplication Table ! ");
         findMultiplicationTable(number);
-
         }
         public static void findMultiplicationTable(int number){
         int num = number;
         int Mul = 0;
         for (int i = 1; i<=10; i++){
             Mul = num * i;
-
             System.out.println(num + " X " + i + " = " + Mul );
         }
         }
