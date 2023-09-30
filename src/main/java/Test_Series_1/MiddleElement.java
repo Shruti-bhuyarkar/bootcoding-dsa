@@ -20,7 +20,6 @@ public class MiddleElement {
            a = a.next;
        }
     }
-
         private static  Node printMiddleElement(Node head){
         Node temp = head;
        // Node temp2 = head;
@@ -30,7 +29,6 @@ public class MiddleElement {
             counter++;
             temp = temp.next;
         }
-
         mid = (counter) / 2;
         temp = head;
         for (int i = 0; i < mid; i++){
