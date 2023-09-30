@@ -10,6 +10,5 @@ public class CountOfDigits {
             return 1;
         }
         return 1 + printCountOfDigits(n / 10);
-
     }
 }
