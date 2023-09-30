@@ -25,7 +25,6 @@ public class SelectionSort {
             }
         }
     }
-
     public static void print(int[] n) {
         int num = n.length;
         for (int i = 0; i < num; ++i) {
