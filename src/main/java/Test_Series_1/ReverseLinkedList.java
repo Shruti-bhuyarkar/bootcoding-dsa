@@ -16,7 +16,6 @@ public class ReverseLinkedList {
         print(head);
        Node n = printReverseLinkedList(head);
         print(n);
-
     }
     private static Node printReverseLinkedList(Node head){
         Node temp = head;
