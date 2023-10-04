@@ -17,6 +17,5 @@ int[] nums = {1, 2, 3, 1, 1, 3};
 
         }
         return count;
-
     }
 }
