@@ -29,11 +29,8 @@ public class ArmstrongInArray {
             }
             if (sum == temp) {
                 System.out.println(sum + " Armstrong");
-
             }
-
             }
         }
-
     }
 
