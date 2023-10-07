@@ -12,7 +12,6 @@ public class CubeOfArray {
         int[] cube = new int[array.length];
         for (int i = 0; i<array.length;i++){
             cube[i] = array[i]*array[i]*array[i];
-
         }
         return cube;
     }
