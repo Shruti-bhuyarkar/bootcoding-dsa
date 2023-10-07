@@ -25,7 +25,6 @@ public class Arraydemo {
             System.out.println(numbers[i]);
         }
     }
-
     private static int[] printEven(int[] numbers) {
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] % 2 == 0) {
@@ -35,7 +34,6 @@ public class Arraydemo {
         }
         return numbers;
     }
-
     private static int[] printOdd(int[] numbers) {
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] % 2 != 0) {
@@ -45,34 +43,7 @@ public class Arraydemo {
 
         }
         return numbers;
-    }
-
-//    private static int[] printMinElement(int[] numbers) {
-//        int min = numbers[0];
-//        for (int i = 0; i < numbers.length; i++) {
-//            for (int j = i+1; j < numbers.length; j++) {
-//                if (numbers[i] > min) {
-//                    min = numbers[i];
-//                    System.out.println(numbers[i]);
-//                    return numbers;
-//                }
-//            }
-//            return numbers;
-//        }
-//        return numbers;
-//    }
-//    private static int[] printMaxElement ( int[] numbers){
-//            int max = numbers[0];
-//            for (int i = 0; i < numbers.length; i++) {
-//
-//                if (max > numbers[i]) {
-//                    max = numbers[i];
-//                    System.out.println(numbers[i]);
-//                    return numbers;
-//                }
-//            }
-//            return numbers;
-//        }
+         }
 }
 
 
