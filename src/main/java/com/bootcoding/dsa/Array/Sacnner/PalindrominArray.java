@@ -28,7 +28,6 @@ public class PalindrominArray {
             if (rem == temp) {
                 System.out.println(temp);
             }
-
         }
     }
 }
