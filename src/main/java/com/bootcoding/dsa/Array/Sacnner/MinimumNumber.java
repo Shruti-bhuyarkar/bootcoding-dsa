@@ -12,8 +12,6 @@ public class MinimumNumber {
             System.out.println("Enter Number " + (i + 1));
             int number = sc.nextInt();
             numbers[i] = number;
-
-
         }
         printMinElement(numbers);
     }
