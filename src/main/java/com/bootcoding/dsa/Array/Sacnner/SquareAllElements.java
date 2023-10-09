@@ -19,6 +19,5 @@ public class SquareAllElements {public static void main(String[] args) {
         num[i] = num[i] * num[i];
         System.out.println("Square is = " + num[i]);
     }
-
     }
 }
