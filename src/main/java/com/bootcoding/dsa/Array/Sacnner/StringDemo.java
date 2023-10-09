@@ -9,9 +9,7 @@ public class StringDemo {
         String word = sc.next();
         char output = findDuplicateChar(word);
         System.out.println("Duplicate character in " + word + " is " + output + "'");
-
     }
-
     private static char findDuplicateChar(String word) {
         char[] chars= word.toCharArray();
         for (int i=0; i<chars.length; i++){
@@ -21,8 +19,6 @@ public class StringDemo {
                 }
             }
         }
-
-
         return 0;
     }
 }
