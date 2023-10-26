@@ -2,7 +2,7 @@ package com.bootcoding.dsa.LeetCode.difficultyLevel.Easy;
 
 //import com.bootcoding.dsa.LeetCode.treeNode;
 
-import com.bootcoding.dsa.LeetCode.Tree.BinaryTree.Node;
+//import com.bootcoding.dsa.LeetCode.Tree.BinaryTree.Node;
 
 import java.util.ArrayList;
 import java.util.List;
