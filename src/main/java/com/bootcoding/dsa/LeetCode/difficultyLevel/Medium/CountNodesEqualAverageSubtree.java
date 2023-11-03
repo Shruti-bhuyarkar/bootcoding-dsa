@@ -21,7 +21,6 @@ public class CountNodesEqualAverageSubtree {
             traverse(root, result);
             return result[0];
         }
-
         private int[] traverse(treeNode node, int[] result) {
             if (node == null) return new int[]{0, 0};
 
@@ -35,8 +34,6 @@ public class CountNodesEqualAverageSubtree {
 
             return new int[]{currSum, currCount};
         }
-
-
     }
 
 
