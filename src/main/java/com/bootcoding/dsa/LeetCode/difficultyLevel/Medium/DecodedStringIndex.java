@@ -3,12 +3,10 @@ package com.bootcoding.dsa.LeetCode.difficultyLevel.Medium;
 public class DecodedStringIndex {
     public static void main(String[] args) {
         DecodedStringIndex decodedStringIndex = new DecodedStringIndex();
-
         // Test the decodeAtIndex method
         String s = "leet2code3";
         int k = 10;
         String decodedChar = decodedStringIndex.decodeAtIndex(s, k);
-
         System.out.println("Decoded character at position " + k + ": " + decodedChar);
     }
         public String decodeAtIndex(String s, int k) {
@@ -23,7 +21,6 @@ public class DecodedStringIndex {
                 }
                 i++;
             }
-
             for (int j = i - 1; j >= 0; j--) {
                 if (Character.isDigit(s.charAt(j))) {
                     length /= s.charAt(j) - '0';
@@ -35,11 +32,8 @@ public class DecodedStringIndex {
                     length--;
                 }
             }
-
             return "";
         }
-
-
     }
 
 
