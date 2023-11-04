@@ -7,13 +7,11 @@ public class FindOriginalArrayPrefixXor {
         // Test the findArray method
         int[] pref = {1, 2, 3, 4, 5};
         int[] resultArray = findOriginalArrayPrefixXor.findArray(pref);
-
         System.out.println("Original Array:");
         for (int num : pref) {
             System.out.print(num + " ");
         }
         System.out.println();
-
         System.out.println("Modified Array (XOR of adjacent elements):");
         for (int num : resultArray) {
             System.out.print(num + " ");
@@ -27,8 +25,6 @@ public class FindOriginalArrayPrefixXor {
             }
             return result;
         }
-
-
-    }
+}
 
 
