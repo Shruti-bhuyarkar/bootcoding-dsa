@@ -1,7 +1,6 @@
 package com.bootcoding.dsa.LeetCode.difficultyLevel.Medium;
 
 public class IntegerBreak {
-
     public static void main(String[] args) {
         int n = 10; // You can change the value of n as needed.
         int maxProduct = integerBreak(n);
