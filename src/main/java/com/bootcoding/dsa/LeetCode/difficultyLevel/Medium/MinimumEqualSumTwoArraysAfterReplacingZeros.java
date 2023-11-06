@@ -27,36 +27,29 @@ public class MinimumEqualSumTwoArraysAfterReplacingZeros {
                 }
                 sum[1] += num;
             }
-
             // Both arrays have zeros, replace all zeros with ones in one array
             if (zero[0] > 0 && zero[1] > 0) {
                 return Math.max(sum[0] + zero[0], sum[1] + zero[1]);
             }
-
             // One of the arrays has zeros
             if (zero[0] > 0 && zero[1] == 0) {
                 if (sum[0] < sum[1] && sum[0] + zero[0] <= sum[1]) {
                     return sum[1];
                 }
             }
-
             if (zero[0] == 0 && zero[1] > 0) {
                 if (sum[0] > sum[1] && sum[0] >= sum[1] + zero[1]) {
                     return sum[0];
                 }
             }
-
             // No zeros in both arrays
             if (zero[0] + zero[1] == 0) {
                 if (sum[0] == sum[1]) {
                     return sum[1];
                 }
             }
-
             return -1; // Return -1 if none of the conditions are met
         }
-
-
     }
 
 
