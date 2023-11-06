@@ -1,11 +1,8 @@
 package com.bootcoding.dsa.LeetCode.difficultyLevel.Medium;
 import java.util.*;
 public class ValidateBinaryTreeNodes {
-
-
     public static void main(String[] args) {
         ValidateBinaryTreeNodes validateBinaryTreeNodes = new ValidateBinaryTreeNodes();
-
         int n = 6;
         int[] leftChild = {1, -1, -1, 4, -1, -1};
         int[] rightChild = {2, -1, -1, 5, -1, -1};
@@ -47,7 +44,6 @@ public class ValidateBinaryTreeNodes {
                     rootCandidate = node;
                 }
             }
-
             if (rootCandidate == -1) {
                 return false;  // No candidate for the root.
             }
@@ -78,11 +74,8 @@ public class ValidateBinaryTreeNodes {
                     queue.add(right);
                 }
             }
-
             return visited.size() == n;
         }
-
-
     }
 
 
