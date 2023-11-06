@@ -20,8 +20,6 @@ public class MinimumIncrementOperationsMakeArrayBeautiful {
             }
             return Math.min(dp1, Math.min(dp2, dp3));
         }
-
-
     }
 
 
