@@ -2,7 +2,6 @@ package com.bootcoding.dsa.LeetCode.difficultyLevel.Medium;
 import java.util.ArrayList;
 import java.util.List;
 public class MajorityElementII {
-
     public static void main(String[] args) {
         MajorityElementII solution = new MajorityElementII();
         int[] nums = {3, 2, 3};
