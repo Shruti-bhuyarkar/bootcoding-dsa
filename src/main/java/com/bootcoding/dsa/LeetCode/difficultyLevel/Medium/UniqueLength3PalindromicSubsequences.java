@@ -6,7 +6,6 @@ import java.util.Set;
 public class UniqueLength3PalindromicSubsequences {
 
     public static void main(String[] args) {
-        // Example usage:
         UniqueLength3PalindromicSubsequences solution = new UniqueLength3PalindromicSubsequences();
         String input = "abca";
         int result = solution.countPalindromicSubsequence(input);
