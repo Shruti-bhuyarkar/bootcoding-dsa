@@ -19,7 +19,6 @@ public class UniqueLength3PalindromicSubsequences {
             for (char c : s.toCharArray()) {
                 uniq.add(c);
             }
-
             for (char c : uniq) {
                 int start = s.indexOf(c);
                 int end = s.lastIndexOf(c);
@@ -32,7 +31,6 @@ public class UniqueLength3PalindromicSubsequences {
                     res += charSet.size();
                 }
             }
-
             return res;
         }
     }
