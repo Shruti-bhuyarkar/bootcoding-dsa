@@ -9,6 +9,7 @@ public class ReductionOperationstoMakeArrayElementsEqual {
         int result = R.reductionOperations(nums);
         System.out.println("Reduction Operations: " + result);
     }
+
         public int reductionOperations(int[] nums) {
             int n = nums.length;
             int[] freq = new int[50001];
