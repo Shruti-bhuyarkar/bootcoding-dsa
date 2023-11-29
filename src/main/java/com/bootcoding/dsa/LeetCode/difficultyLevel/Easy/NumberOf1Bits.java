@@ -3,7 +3,6 @@ package com.bootcoding.dsa.LeetCode.difficultyLevel.Easy;
 public class NumberOf1Bits {
     public static void main(String[] args) {
         NumberOf1Bits solution = new NumberOf1Bits();
-
         int n = 25;
         int result = solution.hammingWeight(n);
 
