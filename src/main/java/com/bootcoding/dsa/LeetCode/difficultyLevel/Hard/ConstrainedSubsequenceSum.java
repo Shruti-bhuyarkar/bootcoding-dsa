@@ -5,7 +5,6 @@ public class ConstrainedSubsequenceSum {
     public static void main(String[] args) {
         ConstrainedSubsequenceSum constrainedSubsequenceSum = new ConstrainedSubsequenceSum();
 
-        // Example usage:
         int[] nums = {10, -2, -10, 5, 20};
         int k = 2;
         int result = constrainedSubsequenceSum.constrainedSubsetSum(nums, k);
