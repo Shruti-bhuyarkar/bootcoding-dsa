@@ -3,7 +3,7 @@ package com.bootcoding.dsa.LeetCode.difficultyLevel.Hard;
 public class CountVowelsPermutation {
     public static void main(String[] args) {
         CountVowelsPermutation countVowelsPermutation = new CountVowelsPermutation();
-        int n = 5; // Replace with your desired 'n' value
+        int n = 5;
         int count = countVowelsPermutation.countVowelPermutation(n);
         System.out.println("Count of Vowel Permutations for n=" + n + ": " + count);
     }
