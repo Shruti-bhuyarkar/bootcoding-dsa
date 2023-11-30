@@ -3,8 +3,8 @@ package com.bootcoding.dsa.LeetCode.difficultyLevel.Hard;
 public class NumberOfWays {
     public static void main(String[] args) {
         NumberOfWays numberOfWays = new NumberOfWays();
-        int steps = 3; // You can change the values as needed
-        int arrLen = 2; // You can change the values as needed
+        int steps = 3;
+        int arrLen = 2;
 
         int result = numberOfWays.numWays(steps, arrLen);
         System.out.println("Number of Ways: " + result);
