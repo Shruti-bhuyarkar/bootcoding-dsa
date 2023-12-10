@@ -5,7 +5,6 @@ import com.bootcoding.dsa.LeetCode.Tree.treeNode;
 public class ConstructStringfromBinaryTree {
     public static void main(String[] args) {
         ConstructStringfromBinaryTree solution = new ConstructStringfromBinaryTree();
-
         treeNode root = new treeNode(1);
         root.left = new treeNode(2);
         root.right = new treeNode(3);
