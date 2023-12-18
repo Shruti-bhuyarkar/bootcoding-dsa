@@ -16,6 +16,7 @@ public class ProductDifference {
             int max1 = nums[nums.length - 1];
             int max2 = nums[nums.length - 2];
 
+
             // Find the minimum and second minimum elements
             int min1 = nums[0];
             int min2 = nums[1];
