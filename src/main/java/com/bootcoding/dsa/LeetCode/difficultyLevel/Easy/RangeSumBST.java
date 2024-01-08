@@ -1,7 +1,6 @@
 package com.bootcoding.dsa.LeetCode.difficultyLevel.Easy;
 
 import com.bootcoding.dsa.LeetCode.Tree.treeNode;
-
 public class RangeSumBST {
     public static void main(String[] args) {
         treeNode root = new treeNode(10);
