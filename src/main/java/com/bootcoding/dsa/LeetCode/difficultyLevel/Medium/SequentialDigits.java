@@ -1,0 +1,34 @@
+package com.bootcoding.dsa.LeetCode.difficultyLevel.Medium;
+import java.util.ArrayList;
+import java.util.List;
+public class SequentialDigits { public static void main(String[] args) {
+    SequentialDigits solution = new SequentialDigits();
+    int low = 100;
+    int high = 300;
+    List<Integer> result = solution.sequentialDigits(low, high);
+
+    System.out.println("Result: " + result);
+}
+
+        public List<Integer> sequentialDigits(int low, int high) {
+            List<Integer> a = new ArrayList<>();
+
+            for (int i = 1; i <= 9; ++i) {
+                int num = i;
+                int nextDigit = i + 1;
+
+                while (num <= high && nextDigit <= 9) {
+                    num = num * 10 + nextDigit;
+                    if (low <= num && num <= high) {
+                        a.add(num);
+                    }
+                    ++nextDigit;
+                }
+            }
+
+            a.sort(null);
+            return a;
+        }
+    }
+
+
