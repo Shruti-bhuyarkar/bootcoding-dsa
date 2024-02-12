@@ -4,7 +4,6 @@ public class CherryPickupII {
 
         public static void main(String[] args) {
             CherryPickupII cherryPickupII = new CherryPickupII();
-
             // Example grid
             int[][] grid = {
                     {0, 8, 7, 10, 9, 10, 0, 9, 6},
