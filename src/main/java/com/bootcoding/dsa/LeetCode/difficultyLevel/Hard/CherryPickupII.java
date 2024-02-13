@@ -1,7 +1,6 @@
 package com.bootcoding.dsa.LeetCode.difficultyLevel.Hard;
 
 public class CherryPickupII {
-
         public static void main(String[] args) {
             CherryPickupII cherryPickupII = new CherryPickupII();
             // Example grid
