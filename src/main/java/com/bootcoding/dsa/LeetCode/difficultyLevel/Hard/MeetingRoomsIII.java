@@ -7,7 +7,6 @@ public class MeetingRoomsIII {
         public static void main(String[] args) {
             MeetingRoomsIII meetingRoomsIII = new MeetingRoomsIII();
 
-            // Example usage
             int n = 3;
             int[][] meetings = {{1, 3}, {2, 4}, {3, 5}, {4, 6}, {5, 7}};
             int result = meetingRoomsIII.mostBooked(n, meetings);
