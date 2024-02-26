@@ -40,7 +40,6 @@ public class GreatestCommonDivisorTraversal {
                 }
             }
         }
-
         int p = find(parent, nums[0]);
         for (int i = 1; i < n; i++)
             if (find(parent, nums[i]) != p) return false;
