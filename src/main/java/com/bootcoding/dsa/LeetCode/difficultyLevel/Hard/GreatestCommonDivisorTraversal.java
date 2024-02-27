@@ -8,7 +8,6 @@ public class GreatestCommonDivisorTraversal {
         boolean canTraverse = solution.canTraverseAllPairs(nums);
         System.out.println("Can traverse all pairs: " + canTraverse);
     }
-
     public boolean canTraverseAllPairs(int[] nums) {
         int max = 0;
         for (int x : nums)
