@@ -20,8 +20,6 @@ public class MaximumOddBinaryNum {
             System.out.println("Maximum Odd Binary Number: " + result2);
             System.out.println();
 
-
-
     }
 
 
