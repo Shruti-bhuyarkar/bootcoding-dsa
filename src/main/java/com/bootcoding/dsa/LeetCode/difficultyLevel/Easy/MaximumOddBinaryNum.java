@@ -22,7 +22,6 @@ public class MaximumOddBinaryNum {
 
     }
 
-
         public String maximumOddBinaryNumber(String s) {
             int cnt1 = 0, cnt0 = 0;
             for (char a : s.toCharArray()) {
